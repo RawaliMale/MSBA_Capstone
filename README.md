@@ -35,6 +35,8 @@ For modeling, we have used this cleaned data set to predict the loan default on 
 
 ### Important Features:
  
+![image](https://github.com/RawaliMale/MSBA_Capstone/assets/139506913/321b3a0c-623e-48d0-b892-fc47e9f2eaa5)
+![image](https://github.com/RawaliMale/MSBA_Capstone/assets/139506913/f13fa24c-59f2-483d-a0ba-6f7e97c1765c)
 
  
 Ext_Source_3, Ext_Source_2 are the most important features in our data from Shap analysis and by feature Engineering. These helps in home credit to know on which factors to focus on.
