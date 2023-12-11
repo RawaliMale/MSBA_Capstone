@@ -22,7 +22,8 @@ As a part of Pre-Modelling, we have used the following techniques:
 •	Under (Down sampling): Down sampled the majority class to match it with the number of instances of minority class.
 •	Smote Sampling: We over sampled the minority class by creating synthetic data.
 For modeling, we have used this cleaned data set to predict the loan default on different machine learning methods such as Logistic Regression, Random Forest, Neural Net, XGBoost and Light GBM. For better model performance we did hyperparameter tuning and to handle class imbalance in our data we employed sampling techniques as explained above. We evaluated these models’ using metrics like ROC-AUC and accuracy scores along with their Kaggle scores. The final model is chosen based on the highest Kaggle score. We obtained superior performance with Light BGM with a test accuracy of 0.83, Train and test ROC-AUC of 0.84 and 0.77 showing its balanced performance with a Kaggle score of 0.76.
-Problems Encountered in the project:
+
+### Problems Encountered in the project:
 •	One of the major concerns was while running Neural Net, we encountered resource intense issues, we ran out of RAM and hence needed to discard Neural Net for further processing.
 •	As there is a class imbalance in our dataset, we opted sampling techniques such as Down Sampling and Smote Sampling which were additional steps for modeling to help us finalize the final model.
 •	We observed that the modelling scores were low or not as expected, so we tried to change the parameters, tried a few combinations to get more optimal performance scores.
@@ -32,10 +33,13 @@ Problems Encountered in the project:
 
  
 Ext_Source_3, Ext_Source_2 are the most important features in our data from Shap analysis and by feature Engineering. These helps in home credit to know on which factors to focus on.
-Your contribution to the project:
+
+### My contribution to the project:
 Firstly, I did data cleaning by finding the missing values and removed the columns with missing values with a threshold more than 45% except EXT_Source_1 and removed highly correlated features with a threshold of 0.75 and low correlated features with a threshold of 0.04. Then I imputed the missing values with mean and mode and did one-hot encoding to deal with categorical columns.
 As a group team member, I did Feature Engineering Research & Implementation, Feature Scaling & normalization for Logistic Regression, Split the train and test data in the ratio of 80-20. Employed Logistic Regression and Light GBM Model, Tuned Light GBM model. I analyzed the results of all the models including mine and other team members. I summarized and interpreted the results from a business perspective. Did the final Edits and formatting of the notebook and collaborated with the team in preparing and presenting the PowerPoint presentation.
-Business Value/ Recommendations:
+
+### Business Value/ Recommendations:
+
 •	We can predict model decisions using Tree Explainer.
 •	These model predictions help home credit in Improved decision making with low risk.
 •	Automated, faster, efficient & streamlined loan approval process. 
