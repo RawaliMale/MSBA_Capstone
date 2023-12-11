@@ -1,7 +1,8 @@
-Business Problem Statement:
+### Business Problem Statement:
 As the Traditional banking system relies heavily on the credit history of one individual, many people such as students or unemployed fail to establish their credit scores. Taking advantage of their financial vulnerability, these groups of people are targeted by untrustworthy lenders. Home Credit is on mission to change this paradigm by positively targeting these unbanked population to help them in safe and secure borrowing experience. Home Credit leverages telco and transactional data to assess an individual's repayment capabilities. They need some extra help in identifying which clients are most likely to fail on their loans/ which clients are capable of repaying back to maintain its financial stability, improve lending decisions and prevent losses. Our team moto is to help them in unlocking the full potential that data could serve to help them in making informed lending decisions.
 Our objective is to increase the precision of loan repayment estimates by utilizing exploratory data analysis (EDA) and statistical methods to acquire deep insights into Home Credit's loan application data. Through rigorous data investigation, we try to find patterns, trends, and potential risk factors within the dataset. Our main goal is to enable Home Credit to make data-driven lending decisions that lower the risk of default without denying credit to qualified customers. The improved accuracy of loan repayment predictions, which will support Home Credit's financial stability and customer happiness, will serve as a barometer for the project's performance.
-Groups Solution:
+
+### Groups Solution:
 Our solution to this problem would include the development of supervised predictive classification models since we have historical labelled data and as the outcome of the target variable is binary with values of 0 and 1, where 0 indicating timely loan repayment and 1 signifying potential repayment difficulties. We employed sophisticated techniques such as Logistic Regression and use of ensemble methods for extracting a list of customers with higher probabilities of loan repayment. The client’s repayment prediction will be based on alternate data to loan history such as telco and transactional information.
 As a part of EDA, we have undertaken the following steps:
 1.	Import & inspect dataset along with the target variable.
@@ -26,7 +27,7 @@ Problems Encountered in the project:
 •	As there is a class imbalance in our dataset, we opted sampling techniques such as Down Sampling and Smote Sampling which were additional steps for modeling to help us finalize the final model.
 •	We observed that the modelling scores were low or not as expected, so we tried to change the parameters, tried a few combinations to get more optimal performance scores.
 
-Important Features:
+### Important Features:
  
 
  
@@ -41,7 +42,7 @@ Business Value/ Recommendations:
 •	Helps them in tailoring credit limits, interest rates based on risk to the applicants.
 •	They can take proactive measures for active applications to prevent defaults.
 
-Conclusion: 
+### Conclusion: 
 Home Credit Risk default capstone project was thoughtful project, which referred as a practice for the next semester Final project to present to sponsors. It really helped me in understanding how machine learning methods work in real time. The professors weekly online demonstration on each session and example code and git hub portfolio links they provided gave me a step-by-step idea on working on the project.  I’m happy about the progress I made throughout the course duration in understanding and working on concepts such as cleaning the data, data manipulation, Hypothesis testing, Feature selection and scaling, Modeling and Tuning, sampling techniques and finally interpreting the results in business perspective. Working in teams for modeling helped to dig deeper into the modeling and feature engineering for improving the model’s performance. Each of us have worked together in selection of models and tuning them to get the best optimal performance, the workload has been distributed. I appreciate the opportunity to grow and learn from my teammates. Overall, I am confident that this experience will help me to have a solid foundation for success in the field of Data Science and future projects.
 
 	
